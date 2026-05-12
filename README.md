@@ -12,7 +12,7 @@ These processes reduce manual workload, improve data consistency, and ensure rel
 
 ---
 
-## 🤖 RPA-001: Automated Query-Based Data Ingestion & Schema Alignment by Sharepoint default file
+## 🤖 RPA-001: Automated data ingestion & Schema Alignment by Sharepoint default file
 
 ### 🧠 Technical Classification
 - ETL Automation (Extract, Transform, Load)
