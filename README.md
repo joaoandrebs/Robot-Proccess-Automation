@@ -3,6 +3,12 @@
 ## 📌 Overview
 This repository contains two Robotic Process Automation (RPA) scripts designed to automate data ingestion and file standardization processes in a manufacturing analytics environment.
 
+## Business Value
+- Eliminates manual data extraction
+- Ensures schema consistency
+- Prevents integration errors
+- Supports reliable historical tracking
+
 The automations focus on:
 - Automated extraction of data from Excel Query (.iqy) -- sharepoint default file -- and transform to excel (xlsX)
 - Schema-aligned data integration into a historical database (columns to columns)
@@ -55,13 +61,6 @@ This automation extracts data from `.iqy` files (Excel Web Queries), converts th
 - Reorders columns to match database structure
 - Appends new records
 - Overwrites the existing database
-
-
-### 🎯 Business Value
-- Eliminates manual data extraction
-- Ensures schema consistency
-- Prevents integration errors
-- Supports reliable historical tracking
 
 ---
 
