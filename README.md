@@ -20,7 +20,6 @@ These processes reduce manual workload, improve data consistency, and ensure rel
 - Automated Data Integration Pipeline
 - Excel Query Table Extraction (IQY → XLSX)
 
----
 
 ### 🔎 Description
 This automation extracts data from `.iqy` files (Excel Web Queries), converts them into structured Excel format, and integrates the data into a historical database while enforcing schema consistency.
@@ -57,7 +56,6 @@ This automation extracts data from `.iqy` files (Excel Web Queries), converts th
 - Appends new records
 - Overwrites the existing database
 
----
 
 ### 🎯 Business Value
 - Eliminates manual data extraction
@@ -74,7 +72,6 @@ This automation extracts data from `.iqy` files (Excel Web Queries), converts th
 - Pattern Recognition (Regex)
 - Data Label Normalization
 
----
 
 ### 🔎 Description
 This automation standardizes file names based on a predefined pattern, ensuring consistency and improving file organization for downstream processes.
@@ -85,3 +82,9 @@ This automation standardizes file names based on a predefined pattern, ensuring 
 
 #### 1. File Detection
 - Searches for files matching pattern:
+
+#### 2. Pattern Extraction
+- Uses **Regular Expressions (regex)** to extract day (`XX`)
+
+#### 3. File Renaming
+- Converts filenames into standard date format:
